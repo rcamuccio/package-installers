@@ -3,10 +3,10 @@
 # Richard Camuccio
 # 19 Feb 2019
 #
-# Last update: 8 June 2019
+# Last update: 25 June 2020 (Ubuntu 20.04 LTS)
 #
 
-sudo apt install -y curl libastrometry0 libc6 libcairo2 libgsl23 libjpeg8 libnetpbm10 libpng16-16 netpbm python python-astrometry python-pyfits python3 python3-exif libcfitsio-bin sextractor libatlas3-base libfftw3-single3
+sudo apt install -y libastrometry0 libc6 libcairo2 libcfitsio8 libgsl23 libjpeg8 libnetpbm10 libpng16-16 libwcs7 netpbm python3 python3-astrometry curl libcfitsio-bin python3-exif source-extractor
 
 wget --continue http://broiler.astrometry.net/~dstn/4200/index-4219.fits
 wget --continue http://broiler.astrometry.net/~dstn/4200/index-4218.fits
